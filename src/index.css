@@ -1,0 +1,52 @@
+body {
+  color: #ccc;
+  background: #010428;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid #307895;
+  background: transparent;
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #307895;
+  background: transparent;
+  color: #ccc;
+  cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+button:hover {
+  color: #307895;
+}
+
+*:focus {
+  outline: none;
+}
+
